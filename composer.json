@@ -22,7 +22,10 @@
         "laravel": {
             "providers": [
                 "Binthec\\Helper\\HelperServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Helper": "Binthec\\Helper\\Facades\\HelperFacade"
+            }
         }
     }
 }
