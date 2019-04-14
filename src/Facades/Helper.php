@@ -4,7 +4,7 @@ namespace Binthec\Helper\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class HelperFacade extends Facade
+class Helper extends Facade
 {
     /**
      * Get the registered name of the component.
