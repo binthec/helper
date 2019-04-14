@@ -24,7 +24,7 @@
                 "Binthec\\Helper\\HelperServiceProvider"
             ],
             "aliases": {
-                "Helper": "Binthec\\Helper\\Facades\\HelperFacade"
+                "Helper": "Binthec\\Helper\\Facades\\Helper"
             }
         }
     }
