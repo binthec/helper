@@ -1,0 +1,28 @@
+{
+    "name": "binthec/helper",
+    "description": "This is my common functions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "binthec",
+            "email": "binthec@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binthec\\Helper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binthec\\Helper\\HelperServiceProvider"
+            ]
+        }
+    }
+}
